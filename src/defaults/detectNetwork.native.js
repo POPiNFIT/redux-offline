@@ -1,6 +1,7 @@
 /* eslint no-underscore-dangle: 0 */
-import { AppState, NetInfo } from 'react-native'; // eslint-disable-line
+import { AppState } from 'react-native'; // eslint-disable-line
 import LegacyDetectNetwork from './detectNetwork.native.legacy';
+import NetInfo from '@react-native-community/netinfo'; // eslint-disable-line
 
 class DetectNetwork {
   constructor(callback) {
